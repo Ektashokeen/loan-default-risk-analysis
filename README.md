@@ -49,7 +49,7 @@ Distribution of loan applicants by age, income, and employment type.
 3. Financial Risk Metrics
 Visuals showcasing DTI, loan amount, and risk correlation metrics.
 
-![Financial Risk Metrics Dashboard](Financial Risk Metrics.jpg)
+![Financial Risk Metrics Dashboard](Financial Risk Metrics.png)
 
 ---
 
