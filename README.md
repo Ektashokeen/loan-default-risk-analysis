@@ -39,17 +39,17 @@ In this project, I analyzed borrower profiles and loan data to identify risk pat
 ### 1. Loan Default Overview
 *Summary dashboard highlighting total applicants, default rate, and loan categories.*
 
-![Executive Summary Dashboard](Loan Default Overview.png)
+![Loan Default Overview Dashboard](Loan%20Default%20Overview.png)
 
 ### 2. Applicant Demographics
 *Distribution of loan applicants by age, income, and employment type.*
 
-![Applicant Demographics Analysis](Applicant Demographics.png)
+![Applicant Demographics Analysis](Applicant%20Demographics.png)
 
 ### 3. Financial Risk Metrics
 *Visuals showcasing DTI, loan amount, and risk correlation metrics.*
 
-![Financial Risk Metrics Dashboard](Financial Risk Metrics.png)
+![Financial Risk Metrics Dashboard](Financial%20Risk%20Metrics.png)
 
 ---
 
