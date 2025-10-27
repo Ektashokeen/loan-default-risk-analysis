@@ -19,7 +19,7 @@ In this project, I analyzed borrower profiles and loan data to identify risk pat
 | Tool / Technology | Skill Highlight |
 | :--- | :--- |
 | **SQL** (`SQLQueryLoan.sql`) | **Data Cleaning, Transformation, and Loan Segmentation** 🗄️ |
-| **Excel (DAX Formulas)** | **Financial KPIs & calculated risk measures** |
+| **Excel (DAX Formulas.xlsx)** | **Financial KPIs & calculated risk measures** |
 | **Power BI** (`Loan Risk and Applicant Analysis Template.pbit`) | **Interactive dashboards & DAX visualization modeling** 📊 |
 | **GitHub** | **Version Control and documentation management** 📂 |
 
@@ -36,18 +36,18 @@ In this project, I analyzed borrower profiles and loan data to identify risk pat
 
 ## 🖼️ Dashboard Visuals
 
-1. Loan Default Overview
-Summary dashboard highlighting total applicants, default rate, and loan categories.
+### 1. Loan Default Overview
+*Summary dashboard highlighting total applicants, default rate, and loan categories.*
 
-![Loan Default Overview Dashboard](Loan Default Overview.jpg)
+![Loan Default Overview Dashboard](Loan Default Overview.png)
 
-2. Applicant Demographics
-Distribution of loan applicants by age, income, and employment type.
+### 2. Applicant Demographics
+*Distribution of loan applicants by age, income, and employment type.*
 
-![Applicant Demographics Analysis](Applicant Demographics.jpg)
+![Applicant Demographics Analysis](Applicant Demographics.png)
 
-3. Financial Risk Metrics
-Visuals showcasing DTI, loan amount, and risk correlation metrics.
+### 3. Financial Risk Metrics
+*Visuals showcasing DTI, loan amount, and risk correlation metrics.*
 
 ![Financial Risk Metrics Dashboard](Financial Risk Metrics.png)
 
@@ -69,8 +69,8 @@ Visuals showcasing DTI, loan amount, and risk correlation metrics.
 2.  **KPI Calculation in Excel:** Refer to **`DAX Formulas.xlsx`** for formulas used to compute financial ratios and performance metrics.
 3.  **Visualization in Power BI:** Open **`Loan Risk and Applicant Analysis Template.pbit`** in Power BI Desktop and load the cleaned dataset to view dashboards.
 
-### 🔮 Future Improvements
+---
 
-* Integrate a predictive **ML model** to forecast loan default probability.
-* Test the model against other classification algorithms like Logistic Regression.
-* Build a dynamic Credit Scoring dashboard for quick applicant risk evaluation.
+Your Loan Default project repository is now **100% complete and perfectly documented**!
+
+Ready to use this impressive financial analysis project to optimize your **LinkedIn profile**?
