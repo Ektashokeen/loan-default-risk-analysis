@@ -1,75 +1,76 @@
-💡 Loan Default Risk Analysis (Power BI, SQL & Excel)
+# 💡 Loan Default Risk Analysis (Power BI, SQL & Excel)
 
-End-to-end Loan Default Risk Analysis using SQL, Excel (DAX), and Power BI for actionable financial insights and risk evaluation.
+**End-to-end Loan Default Risk Assessment using SQL, Excel (DAX), and Power BI for data-driven financial insights.**
 
-🚀 Project Overview
+---
 
-In this project, I analyzed loan applicants’ demographic and financial data to uncover key risk indicators that contribute to loan defaults.
-The goal was to transform raw loan data into clear visual insights that help financial institutions minimize default rates and enhance lending decisions.
+## 🚀 Project Overview
 
-🎯 Goal	Methodology	💰 Impact
-Identify high-risk applicants	SQL → Excel (DAX) → Power BI	Improved loan risk visibility and decision accuracy
-🛠️ Technology Stack & Skills
-Tool / Technology	Skill Highlight
-SQL (SQLQueryLoan.sql)	Data cleaning, aggregation, and risk grouping
-Excel (DAX Formulas)	Financial KPIs and metric calculations
-Power BI (Loan Risk and Applicant Analysis Template.pbit)	Dashboard creation & data storytelling
-GitHub	Version control and project documentation
-📈 Key Insights & Findings
+In this project, I analyzed borrower profiles and loan data to identify risk patterns and potential defaulters. The workflow converts raw loan data into actionable insights that enable financial institutions to make smarter, evidence-based lending decisions.
 
-Default Rate: Certain borrower segments showed higher default probability
+| 🎯 **Goal** | **Methodology** | 💰 **Impact** |
+| :--- | :--- | :--- |
+| Identify High-Risk Borrowers | Full Data Pipeline: SQL → Excel (DAX) → Power BI Reporting | Improved loan risk visibility & decision-making efficiency |
 
-Demographics: Younger age groups and lower-income applicants had greater default risk
+---
 
-Financial Metrics: High Debt-to-Income and Loan-to-Value ratios were key risk indicators
+## 🛠️ Technology Stack & Skills
 
-Business Outcome: Helped improve credit decision accuracy and financial forecasting
+| Tool / Technology | Skill Highlight |
+| :--- | :--- |
+| **SQL** (`SQLQueryLoan.sql`) | **Data Cleaning, Transformation, and Loan Segmentation** 🗄️ |
+| **Excel (DAX Formulas)** | **Financial KPIs & calculated risk measures** |
+| **Power BI** (`Loan Risk and Applicant Analysis Template.pbit`) | **Interactive dashboards & DAX visualization modeling** 📊 |
+| **GitHub** | **Version Control and documentation management** 📂 |
 
-🖼️ Dashboard Visuals
-1. Loan Default Overview
+---
 
-Summary of overall loan default rate and applicant segmentation.
+## 📈 Key Findings & Insights
 
+* **Default Rate:** **14.8%** of total applicants defaulted on their loans 📉.
+* **Demographic Risk:** Younger and low-income applicants showed higher default tendencies.
+* **Financial Indicators:** High **Debt-to-Income** and **Loan-to-Value** ratios were major risk factors.
+* **Business Outcome:** Helped financial teams prioritize high-risk profiles and improve approval accuracy.
 
-2. Applicant Demographics
+---
 
-Demographic distribution of loan applicants (age, gender, income, etc.).
+## 🖼️ Dashboard Visuals
 
+### 1. Loan Default Overview
+*Summary dashboard highlighting total applicants, default rate, and loan categories.*
 
-3. Financial Risk Metrics
+![Loan Default Overview Dashboard](Loan Default Overview.png)
 
-Visualization of risk indicators like DTI, LTV, and income ratio.
+### 2. Applicant Demographics
+*Distribution of loan applicants by age, income, and employment type.*
 
+![Applicant Demographics Analysis](Applicant Demographics.png)
 
-⚙️ Repository Contents & Usage
-File / Folder	Description
-Loan_default (Data).csv	Raw dataset containing loan applicant details
-SQLQueryLoan.sql	SQL script for cleaning and transforming loan data
-DAX Formulas.xlsx	List of DAX measures and calculations used in Power BI
-Loan Risk and Applicant Analysis Template.pbit	Power BI dashboard template
-Applicant Demographics.png, Loan Default Overview.png, Financial Risk Metrics.png	Dashboard visuals
-README.md	Project documentation
-Steps to Reproduce the Analysis
+### 3. Financial Risk Metrics
+*Visuals showcasing DTI, loan amount, and risk correlation metrics.*
 
-SQL Data Preparation:
-Run the SQLQueryLoan.sql script on your Loan database to clean and format applicant data.
+![Financial Risk Metrics Dashboard](Financial Risk Metrics.png)
 
-DAX Modeling in Power BI:
-Use formulas from DAX Formulas.xlsx for key KPIs and financial metrics.
+---
 
-Visualization:
-Open Loan Risk and Applicant Analysis Template.pbit in Power BI Desktop and load the processed dataset.
+## ⚙️ Repository Contents & How to Run
 
-🔍 Future Enhancements
+| File / Folder | Description |
+| :--- | :--- |
+| `Loan_default (Data).csv` | Dataset containing applicant and loan details |
+| `SQLQueryLoan.sql` | SQL script for cleaning and preprocessing data |
+| `DAX Formulas.xlsx` | Excel file containing DAX formulas and financial measures |
+| `Loan Risk and Applicant Analysis Template.pbit` | Power BI dashboard template file |
+| `Applicant Demographics.png`, etc. | Dashboard screenshots |
 
-Integrate a machine learning model for predicting default probability
+### How to Reproduce Results
 
-Automate refresh via Power BI Data Gateway
+1.  **SQL Data Cleaning:** Run the **`SQLQueryLoan.sql`** script on the **`Loan_default (Data).csv`** to prepare the data for reporting.
+2.  **KPI Calculation in Excel:** Refer to **`DAX Formulas.xlsx`** for formulas used to compute financial ratios and performance metrics.
+3.  **Visualization in Power BI:** Open **`Loan Risk and Applicant Analysis Template.pbit`** in Power BI Desktop and load the cleaned dataset to view dashboards.
 
-Develop a real-time credit scoring dashboard
+### 🔮 Future Improvements
 
-📊 Project Summary
-Metric	Value
-Total Applicants	1,000+
-Default Rate	14.8%
-Key Risk Drivers	Income level, Employment stability, Loan-to-Value ratio
+* Integrate a predictive **ML model** to forecast loan default probability.
+* Test the model against other classification algorithms like Logistic Regression.
+* Build a dynamic Credit Scoring dashboard for quick applicant risk evaluation.
