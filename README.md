@@ -39,7 +39,7 @@ In this project, I analyzed borrower profiles and loan data to identify risk pat
 ### 1. Loan Default Overview
 *Summary dashboard highlighting total applicants, default rate, and loan categories.*
 
-![Executive Summary Dashboard](Summary_Dashboard.png)
+![Executive Summary Dashboard](Loan Default Overview.png)
 
 ### 2. Applicant Demographics
 *Distribution of loan applicants by age, income, and employment type.*
