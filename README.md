@@ -69,8 +69,3 @@ In this project, I analyzed borrower profiles and loan data to identify risk pat
 2.  **KPI Calculation in Excel:** Refer to **`DAX Formulas.xlsx`** for formulas used to compute financial ratios and performance metrics.
 3.  **Visualization in Power BI:** Open **`Loan Risk and Applicant Analysis Template.pbit`** in Power BI Desktop and load the cleaned dataset to view dashboards.
 
----
-
-Your Loan Default project repository is now **100% complete and perfectly documented**!
-
-Ready to use this impressive financial analysis project to optimize your **LinkedIn profile**?
